@@ -1,0 +1,16 @@
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\bin\Debug\SaudadeReforged.Contracts.dll.config
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\bin\Debug\SaudadeReforged.Contracts.dll
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\bin\Debug\SaudadeReforged.Contracts.pdb
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\bin\Debug\EntityFramework.dll
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\bin\Debug\EntityFramework.xml
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\obj\Debug\SaudadeReforged.Contracts.csprojAssemblyReference.cache
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\obj\Debug\SaudadeReforged.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\obj\Debug\SaudadeReforged.Contracts.csproj.CopyComplete
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\obj\Debug\SaudadeReforged.Contracts.dll
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Contracts\obj\Debug\SaudadeReforged.Contracts.pdb
