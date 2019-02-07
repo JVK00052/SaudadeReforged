@@ -52,6 +52,9 @@ namespace SaudadeReforged.Models
         [Display(Name = "Email")]
         [EmailAddress]
         public string Email { get; set; }
+        [Display(Name = "First Name")]
+        [Required]
+        public string UserName { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -68,6 +71,8 @@ namespace SaudadeReforged.Models
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
+        [Display(Name = "First Name"), Required]
+        public string UserName { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
@@ -79,7 +84,7 @@ namespace SaudadeReforged.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
-        public string UserName { get; internal set; }
+        //public string UserName { get; internal set; }
     }
 
     public class ResetPasswordViewModel
