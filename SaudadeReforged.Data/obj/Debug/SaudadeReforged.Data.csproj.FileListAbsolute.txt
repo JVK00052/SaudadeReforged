@@ -21,3 +21,8 @@ C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debu
 C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.ThirdMigration.resources
 C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.FirstName.resources
 C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.Tucker.resources
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.ModelCharacterUpdate.resources
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.ModelLengthChange.resources
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.BioMethods.resources
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.LoginChanges.resources
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.BioUpdate.resources

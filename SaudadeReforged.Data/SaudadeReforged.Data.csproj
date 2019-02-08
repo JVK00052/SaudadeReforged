@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bio.cs" />
     <Compile Include="Entry.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Migrations\201902041559325_InitialCreate.cs" />
@@ -80,6 +81,26 @@
     <Compile Include="Migrations\201902051931284_Tucker.Designer.cs">
       <DependentUpon>201902051931284_Tucker.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902071725373_ModelCharacterUpdate.cs" />
+    <Compile Include="Migrations\201902071725373_ModelCharacterUpdate.Designer.cs">
+      <DependentUpon>201902071725373_ModelCharacterUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902071826094_ModelLengthChange.cs" />
+    <Compile Include="Migrations\201902071826094_ModelLengthChange.Designer.cs">
+      <DependentUpon>201902071826094_ModelLengthChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902071909358_BioMethods.cs" />
+    <Compile Include="Migrations\201902071909358_BioMethods.Designer.cs">
+      <DependentUpon>201902071909358_BioMethods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902072001558_LoginChanges.cs" />
+    <Compile Include="Migrations\201902072001558_LoginChanges.Designer.cs">
+      <DependentUpon>201902072001558_LoginChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902072100398_BioUpdate.cs" />
+    <Compile Include="Migrations\201902072100398_BioUpdate.Designer.cs">
+      <DependentUpon>201902072100398_BioUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -105,6 +126,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902051931284_Tucker.resx">
       <DependentUpon>201902051931284_Tucker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902071725373_ModelCharacterUpdate.resx">
+      <DependentUpon>201902071725373_ModelCharacterUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902071826094_ModelLengthChange.resx">
+      <DependentUpon>201902071826094_ModelLengthChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902071909358_BioMethods.resx">
+      <DependentUpon>201902071909358_BioMethods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902072001558_LoginChanges.resx">
+      <DependentUpon>201902072001558_LoginChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902072100398_BioUpdate.resx">
+      <DependentUpon>201902072100398_BioUpdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

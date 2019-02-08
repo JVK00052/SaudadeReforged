@@ -52,7 +52,7 @@ namespace SaudadeReforged.Models
         [Display(Name = "Email")]
         [EmailAddress]
         public string Email { get; set; }
-        [Display(Name = "First Name")]
+        [Display(Name = "User Name")]
         [Required]
         public string UserName { get; set; }
 
@@ -71,7 +71,7 @@ namespace SaudadeReforged.Models
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
-        [Display(Name = "First Name"), Required]
+        [Display(Name = "User Name"), Required]
         public string UserName { get; set; }
 
         [Required]

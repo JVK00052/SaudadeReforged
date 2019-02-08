@@ -18,12 +18,12 @@ namespace SaudadeReforged.Data
 
         [Required]
         [MinLength(2, ErrorMessage = "Please enter a title that is at LEAST TWO characters long!")]
-        [MaxLength(20, ErrorMessage = "Please enter a title that is LESS than TWENTY characters long!")]
+        [MaxLength(2000, ErrorMessage = "Please enter a title that is LESS than TWENTY characters long!")]
         public string Title { get; set; }
 
         [Required]
         [MinLength(2, ErrorMessage = "Please enter a topic that is at LEAST TWO characters long!")]
-        [MaxLength(20, ErrorMessage = "Please enter a topic that is LESS than TWENTY characters long!")]
+        [MaxLength(2000, ErrorMessage = "Please enter a topic that is LESS than TWENTY characters long!")]
         public string Topic { get; set; }
 
         [Required]
@@ -32,7 +32,7 @@ namespace SaudadeReforged.Data
 
         [Required]
         [MinLength(2, ErrorMessage = "Please enter a tag that is at LEAST TWO characters long!")]
-        [MaxLength(20, ErrorMessage = "Please enter a tag that is at LESS than TWENTY characters long!")]
+        [MaxLength(2000, ErrorMessage = "Please enter a tag that is at LESS than TWENTY characters long!")]
         public string Tag { get; set; }
 
 
