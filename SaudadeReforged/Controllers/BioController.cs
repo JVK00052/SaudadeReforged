@@ -62,5 +62,50 @@ namespace SaudadeReforged.Controllers
             return service;
         }
 
+        public ActionResult Edit(int id)
+        {
+            var service = CreateBioService();
+            var detail = service.GetBioById(id);
+            var model =
+                new BioEdit
+                {
+                    BioId = detail.BioId,
+                    FullName = detail.FullName,
+                    NickNames = detail.NickNames,
+                    Birthday = detail.Birthday,
+                    Age = detail.Age,
+                    Gender = detail.Gender,
+                    Location = detail.Location,
+                    Race = detail.Race,
+                    Ethnicity = detail.Ethnicity,
+                    AboutYou = detail.AboutYou,
+                    Interests = detail.Interests,
+                    Hobbies = detail.Hobbies,
+                };
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, BioEdit model)
+        {
+            if (!ModelState.IsValid) return View(model);
+
+            if(model.BioId != id)
+            {
+                ModelState.AddModelError("", "Id mismatch");
+                return View(model);
+            }
+
+            var service = CreateBioService();
+
+            if(service.UpdateBio(model))
+            {
+                TempData["SaveResult"] = "Your bio was updated.";
+                return RedirectToAction("Index");
+            }
+            ModelState.AddModelError("", "Your bio could not be updated.");
+            return View(model);
+        }
     }
 }

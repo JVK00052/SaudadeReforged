@@ -251,6 +251,7 @@
     <Content Include="Views\Bio\Create.cshtml" />
     <Content Include="Views\Bio\Index.cshtml" />
     <Content Include="Views\Bio\Details.cshtml" />
+    <Content Include="Views\Bio\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

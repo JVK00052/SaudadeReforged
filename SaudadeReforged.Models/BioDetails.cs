@@ -20,12 +20,12 @@ namespace SaudadeReforged.Models
         public string Race { get; set; }
         public string Ethnicity { get; set; }
         public string AboutYou { get; set; }
+        public string Hobbies { get; set; }
         public string Interests { get; set; }
         [Display(Name = "Created")]
         public DateTimeOffset CreatedUtc { get; set; }
         [Display(Name = "Modified")]
         public DateTimeOffset? ModifiedUtc { get; set; }
-        public string Hobbies { get; set; }
 
         public override string ToString() => $"[{BioId}] {FullName}";
     }

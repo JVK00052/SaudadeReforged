@@ -104,5 +104,31 @@ namespace SaudadeReforged.Services
                     };
             }
         }
+
+        public bool UpdateBio(BioEdit model)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                    .Bios
+                    .Single(e => e.BioId == model.BioId && e.OwnerId == _userId);
+
+                entity.FullName = model.FullName;
+                entity.NickNames = model.NickNames;
+                entity.Birthday = model.Birthday;
+                entity.Age = model.Age;
+                entity.Gender = model.Gender;
+                entity.Location = model.Location;
+                entity.Race = model.Race;
+                entity.Ethnicity = model.Ethnicity;
+                entity.AboutYou = model.AboutYou;
+                entity.Interests = model.Interests;
+                entity.Hobbies = model.Hobbies;
+                entity.ModifiedUtc = DateTimeOffset.UtcNow;
+
+                return ctx.SaveChanges() == 1;
+            }
+        }
     }
 }

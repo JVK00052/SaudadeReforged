@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="BioCreate.cs" />
     <Compile Include="BioDetails.cs" />
+    <Compile Include="BioEdit.cs" />
     <Compile Include="BioListItem.cs" />
     <Compile Include="EntryCreate.cs" />
     <Compile Include="EntryDetail.cs" />
