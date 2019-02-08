@@ -107,5 +107,26 @@ namespace SaudadeReforged.Controllers
             ModelState.AddModelError("", "Your bio could not be updated.");
             return View(model);
         }
+
+        [ActionName("Delete")]
+        public ActionResult Delete(int id)
+        {
+            var svc = CreateBioService();
+            var model = svc.GetBioById(id);
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeletePost(int id)
+        {
+            var service = CreateBioService();
+            service.DeleteBio(id);
+            TempData["SaveResult"] = "Your Bio was Deleted";
+
+            return RedirectToAction("Index");
+        }
     }
 }

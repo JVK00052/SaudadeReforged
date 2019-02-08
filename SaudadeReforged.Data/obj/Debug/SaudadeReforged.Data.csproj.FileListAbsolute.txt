@@ -26,3 +26,7 @@ C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debu
 C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.BioMethods.resources
 C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.LoginChanges.resources
 C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.BioUpdate.resources
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.EditDeleteUpdateMethods.resources
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.UpdatedBioListItem.resources
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.UpatedBioService.resources
+C:\Users\Josh\Documents\C#-library\SaudadeReforged\SaudadeReforged.Data\obj\Debug\SaudadeReforged.Data.Migrations.UpdatedModelsAndServices.resources

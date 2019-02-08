@@ -11,7 +11,6 @@ namespace SaudadeReforged.Data
     {
         [Key]
         public int BioId { get; set; }
-
         [Required]
         public Guid OwnerId { get; set; }
 

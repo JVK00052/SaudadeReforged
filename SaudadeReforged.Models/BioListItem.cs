@@ -11,10 +11,7 @@ namespace SaudadeReforged.Models
     {
         public int BioId { get; set; }
         public string FullName { get; set; }
-
-
-        [Display(Name = "Created")]
-        public DateTimeOffset CreatedUtc { get; set; }
+        
         public string NickNames { get; set; }
         public string Birthday { get; set; }
         public int Age { get; set; }
@@ -26,9 +23,8 @@ namespace SaudadeReforged.Models
         public string Interests { get; set; }
         public string Hobbies { get; set; }
 
-        public override string ToString()
-        {
-            return base.ToString();
-        }
+        [Display(Name = "Created")]
+        public DateTimeOffset CreatedUtc { get; set; }
+        public override string ToString() => FullName;
     }
 }

@@ -101,6 +101,22 @@
     <Compile Include="Migrations\201902072100398_BioUpdate.Designer.cs">
       <DependentUpon>201902072100398_BioUpdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902081538229_EditDeleteUpdateMethods.cs" />
+    <Compile Include="Migrations\201902081538229_EditDeleteUpdateMethods.Designer.cs">
+      <DependentUpon>201902081538229_EditDeleteUpdateMethods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902081541085_UpdatedBioListItem.cs" />
+    <Compile Include="Migrations\201902081541085_UpdatedBioListItem.Designer.cs">
+      <DependentUpon>201902081541085_UpdatedBioListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902081544049_UpatedBioService.cs" />
+    <Compile Include="Migrations\201902081544049_UpatedBioService.Designer.cs">
+      <DependentUpon>201902081544049_UpatedBioService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902081552056_UpdatedModelsAndServices.cs" />
+    <Compile Include="Migrations\201902081552056_UpdatedModelsAndServices.Designer.cs">
+      <DependentUpon>201902081552056_UpdatedModelsAndServices.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -141,6 +157,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902072100398_BioUpdate.resx">
       <DependentUpon>201902072100398_BioUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902081538229_EditDeleteUpdateMethods.resx">
+      <DependentUpon>201902081538229_EditDeleteUpdateMethods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902081541085_UpdatedBioListItem.resx">
+      <DependentUpon>201902081541085_UpdatedBioListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902081544049_UpatedBioService.resx">
+      <DependentUpon>201902081544049_UpatedBioService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902081552056_UpdatedModelsAndServices.resx">
+      <DependentUpon>201902081552056_UpdatedModelsAndServices.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

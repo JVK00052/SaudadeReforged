@@ -12,6 +12,8 @@ namespace SaudadeReforged.Services
     {
         private readonly Guid _userId;
 
+        public Guid OwnerId { get; private set; }
+
         public BioService(Guid userId)
         {
             _userId = userId;
@@ -51,27 +53,27 @@ namespace SaudadeReforged.Services
             {
                 var query =
                     ctx
-                        .Bios
-                        .Where(e => e.OwnerId == _userId)
-                        .Select(
+                    .Bios
+                    .Where(e => e.OwnerId == _userId)
+                    .Select(
                         e =>
-                            new BioListItem
-                            {
-                                BioId = e.BioId,
-                                FullName = e.FullName,
-                                NickNames = e.NickNames,
-                                Birthday = e.Birthday,
-                                Age = e.Age,
-                                Gender = e.Gender,
-                                Location = e.Location,
-                                Race = e.Race,
-                                Ethnicity = e.Ethnicity,
-                                AboutYou = e.AboutYou,
-                                Interests = e.Interests,
-                                Hobbies = e.Hobbies,
-                                CreatedUtc = e.CreatedUtc
-                            }
-                        );
+                        new BioListItem
+                        {
+                            BioId = e.BioId,
+                            FullName = e.FullName,
+                            NickNames = e.NickNames,
+                            Birthday = e.Birthday,
+                            Age = e.Age,
+                            Gender = e.Gender,
+                            Location = e.Location,
+                            Race = e.Race,
+                            Ethnicity = e.Ethnicity,
+                            AboutYou = e.AboutYou,
+                            Interests = e.Interests,
+                            Hobbies = e.Hobbies,
+                            CreatedUtc = e.CreatedUtc
+                        }
+                   );
                 return query.ToArray();
             }
         }
@@ -126,6 +128,21 @@ namespace SaudadeReforged.Services
                 entity.Interests = model.Interests;
                 entity.Hobbies = model.Hobbies;
                 entity.ModifiedUtc = DateTimeOffset.UtcNow;
+
+                return ctx.SaveChanges() == 1;
+            }
+        }
+
+        public bool DeleteBio(int bioId)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                    .Bios
+                    .Single(e => e.BioId == bioId && e.OwnerId == _userId);
+
+                ctx.Bios.Remove(entity);
 
                 return ctx.SaveChanges() == 1;
             }
